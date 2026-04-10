@@ -19,7 +19,7 @@ func main() {
 
 func GetBio() Bio {
 	return Bio{
-		"- ⚡ Quick bio:":                    "A kind of metalHead-synthWave-cyberPunk-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
+		"- ⚡ Quick bio:":                    "A kind of cyberPunk-amateurMusician-traveler-foodLover-gamer-coder-programmer-sportsAficionado",
 		"- 🔭 I’m currently working on":      "Cevaldom as a Software Engineer",
 		"- 🌱 I’m currently learning":        "Golang, MongoDB, RabbitMQ, K8s, C# (Tech stack from my company) --- Sharpening my Front End Skills for the MERN stack (Personal goal)",
 		"- 👯 I’m looking to collaborate on": "AI, Python, Golang and Docker related projects",
