@@ -1,16 +1,31 @@
-## Hi there 👋
+# Yimy Matos
 
-<!--
-**yimymatos/yimymatos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h2 align="center"> Allow myself to introduce myself </h2>
 
-Here are some ideas to get you started:
+```golang
+package main
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+import (
+	"fmt"
+)
+
+type Bio map[string]string
+
+func main() {
+	for k, v := range GetBio() {
+		fmt.Printf("%+v: %+v\n", k, v)
+	}
+}
+
+func GetBio() Bio {
+	return Bio{
+		"- ⚡ Quick bio:":                    "A kind of metalHead-synthWave-cyberPunk-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
+		"- 🔭 I’m currently working on":      "Cevaldom as a Software Engineer",
+		"- 🌱 I’m currently learning":        "Golang, MongoDB, RabbitMQ, K8s, C# (Tech stack from my company) --- Sharpening my Front End Skills for the MERN stack (Personal goal)",
+		"- 👯 I’m looking to collaborate on": "AI, Python, Golang and Docker related projects",
+		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
+		"- 💬 Ask me about":                  "Python, Java, C#, SQL, Software Design & Architecture, Web-Dev and SEO",
+		"- 📫 How to reach me:":              "https://github.com/yimymatos",
+	}
+}
+```
